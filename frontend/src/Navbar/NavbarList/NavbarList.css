@@ -1,0 +1,16 @@
+.NavbarList {
+  height: 20px;
+  width: 525px;
+
+  border-radius: 0px;
+}
+.NavBarListItem {
+  margin-right: 30px;
+  padding: 3px;
+
+  display: inline;
+}
+.listBox {
+  padding-left: 256px;
+  margin-right: 200px;
+}

@@ -1,0 +1,12 @@
+.buttonBase {
+  width: 18px;
+  height: 19px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.buttonPicture {
+  width: 20px;
+  height: 29px;
+}
