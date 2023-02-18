@@ -1,0 +1,27 @@
+.categoriesItemsBox {
+  width: 350px;
+  height: 449px;
+
+  margin-left: 20px;
+  background: #e5e6e6;
+}
+.categoriesItemName {
+  width: 215px;
+  height: 80px;
+
+  margin-top: 50px;
+  margin-left: 31px;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+.categoriesItemButton {
+  width: 119px;
+  height: 43px;
+
+  margin-top: 16px;
+  margin-left: 31px;
+
+  border: 0.6px solid #000000;
+}

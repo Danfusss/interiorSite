@@ -1,0 +1,30 @@
+.itemBox {
+  width: 255px;
+  height: 274px;
+
+  margin-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.iconBox {
+  width: 255px;
+  height: 33px;
+
+  background: #1c1b1b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconSvg {
+  width: 18px;
+  height: 17px;
+
+  margin-left: 21px;
+}
+.itemImg {
+  height: 241px;
+
+  background: #f7f7f7;
+}

@@ -1,0 +1,24 @@
+.feedbackBox {
+  height: 625px;
+  width: 1440px;
+
+  padding-left: 165px;
+  padding-top: 73px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  background-image: url("./ForImage/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering 1.png");
+  background-repeat: no-repeat;
+}
+
+.feedbackItemBox {
+  width: 1110px;
+  height: 315px;
+
+  margin-top: 80px;
+
+  display: flex;
+}

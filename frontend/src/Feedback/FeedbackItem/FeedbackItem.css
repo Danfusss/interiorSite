@@ -1,0 +1,18 @@
+.feedbackItem {
+  width: 255px;
+  height: 314px;
+
+  margin-left: 30px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+}
+.feedbackItemName {
+  margin-top: 93px;
+}
+.feedbackItemProf {
+  margin-top: 6px;
+}
+.feedbackItemCom {
+  margin-top: 32px;
+}

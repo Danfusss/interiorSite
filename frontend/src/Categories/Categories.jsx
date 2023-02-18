@@ -1,12 +1,11 @@
 import React from "react";
 import CategoriesList from "./CategoriesList/CategoriesList";
-import CategoriesTitle from "./CategoriesTitle/CategoriesTitle";
+
+import "./Categories.css";
 
 export default function Categories() {
   return (
-    <div>
-      <h2>{"POPULAR PRODUCT"}</h2>
-      <CategoriesTitle />
+    <div className="categoriesBox">
       <CategoriesList />
     </div>
   );

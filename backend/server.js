@@ -16,9 +16,14 @@ app.get("/getItem", async (req, res) => {
 });
 app.get("/getCategories", async (req, res) => {
   const allCategories = await prisma.categories.findMany();
-  console.log(res.send(allCategories));
-  getCategories;
+  res.send(allCategories);
 });
+
+app.get("/getFeedback", async (req, res) => {
+  const allFeedback = await prisma.reviews.findMany();
+  res.send(allFeedback);
+});
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });

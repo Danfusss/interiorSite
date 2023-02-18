@@ -18,3 +18,10 @@ model categories {
   id    String  @id @default(dbgenerated("uuid_generate_v1()")) @db.Uuid
   title String? @db.VarChar
 }
+
+model reviews {
+  name       String @db.VarChar
+  profession String @db.VarChar
+  comment    String @db.VarChar
+  id         String @id @default(dbgenerated("uuid_generate_v1()")) @db.Uuid
+}

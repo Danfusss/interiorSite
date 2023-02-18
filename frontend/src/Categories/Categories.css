@@ -1,0 +1,9 @@
+.categoriesBox {
+  width: 1110px;
+  height: 449px;
+
+  margin-left: 165px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
