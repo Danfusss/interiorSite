@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./NewProductItems.css";
+import "./PopularListItem.css";
 
-export default function NewProductItems({ item }) {
+export default function PopularListItem({ stuff }) {
   return (
     <div className="itemBox">
       <div>
@@ -29,9 +29,9 @@ export default function NewProductItems({ item }) {
         </div>
       </div>
       <div>
-        <p className="itemName">{item.name}</p>
+        <p className="itemName">{stuff.name}</p>
         <div>
-          <p className="itemCost">{`$${item.cost}.00 `}</p>
+          <p className="itemCost">{`$${stuff.cost}.00 `}</p>
         </div>
       </div>
     </div>

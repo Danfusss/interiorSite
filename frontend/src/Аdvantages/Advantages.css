@@ -1,0 +1,43 @@
+.advantagesBox {
+  width: 1110px;
+  height: 165px;
+
+  margin-top: 111px;
+  margin-left: 150px;
+
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+}
+.advantagesItem {
+  width: 234px;
+  height: 60px;
+
+  margin-left: 32px;
+
+  border-right: 1px solid white;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.advantagesUpTitle {
+  color: #ffffff;
+  font-family: "Nunito Sans";
+  font-style: normal;
+
+  font-size: 20px;
+}
+.advantagesDownTitle {
+  color: #ffffff;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+.advantagesBox svg {
+  height: 37.57756423950195px;
+  width: 47px;
+}

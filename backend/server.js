@@ -1,6 +1,5 @@
 const { PrismaClient } = require("@prisma/client");
 const express = require("express");
-//Создание сервера
 
 const cors = require("cors");
 const app = express();
@@ -23,8 +22,15 @@ app.get("/getFeedback", async (req, res) => {
   const allFeedback = await prisma.reviews.findMany();
   res.send(allFeedback);
 });
+app.get("/getPopular", async (req, res) => {
+  const allPopular = await prisma.popular.findMany();
+  res.send(allPopular);
+});
+app.get("/getArticle", async (req, res) => {
+  const allArticle = await prisma.article.findMany();
+  res.send(allArticle);
+});
 
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
-//

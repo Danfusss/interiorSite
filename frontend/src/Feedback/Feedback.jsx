@@ -15,7 +15,7 @@ export default function Feedback() {
   return (
     <div className="feedbackBox">
       <h3 className="feedbackTitle">{"WHAT PEOPLE SAY"}</h3>
-      <h4 className="feedbackTitle">{"Words Of Our Clients"}</h4>
+      <h4 className="feedbackName">{"Words Of Our Clients"}</h4>
       <div className="feedbackItemBox">
         {massiveReviews.map((reviews, i) => (
           <FeedbackItem key={i} reviews={reviews} />

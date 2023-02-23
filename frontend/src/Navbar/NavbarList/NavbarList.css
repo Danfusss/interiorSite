@@ -1,13 +1,18 @@
 .NavbarList {
   height: 20px;
-  width: 525px;
+  width: 540px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
 
   border-radius: 0px;
 }
 .NavBarListItem {
   margin-right: 30px;
   padding: 3px;
-
+  color: #1b1a1a;
   display: inline;
 }
 .listBox {

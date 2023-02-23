@@ -25,3 +25,18 @@ model reviews {
   comment    String @db.VarChar
   id         String @id @default(dbgenerated("uuid_generate_v1()")) @db.Uuid
 }
+
+model popular {
+  id    String @id(map: "Popular_pkey") @default(dbgenerated("uuid_generate_v1()")) @db.Uuid
+  name  String @db.VarChar
+  cost  Int
+  stars Int?
+}
+
+model article {
+  id                 String   @id @default(dbgenerated("uuid_generate_v1()")) @db.Uuid
+  autor              String   @db.VarChar
+  name               String   @db.VarChar
+  number_of_comments Int?     @map("number of comments")
+  date               DateTime @db.Date
+}

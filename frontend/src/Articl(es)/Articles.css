@@ -1,0 +1,11 @@
+.articleBox {
+  width: 1110px;
+  height: 644px;
+
+  margin-left: 165px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

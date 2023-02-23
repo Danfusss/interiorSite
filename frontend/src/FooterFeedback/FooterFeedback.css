@@ -1,0 +1,74 @@
+.footerFeedbackBox {
+  width: 1440px;
+  height: 422.1px;
+
+  margin-top: 134px;
+
+  background: #ddd7d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerFeedbackBoxItem {
+  height: 256.00048828125px;
+  width: 423px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerFeedbackButton {
+  width: 127px;
+  height: 37px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 28px;
+}
+.footerFeedbackInput {
+  box-sizing: border-box;
+
+  width: 275px;
+  height: 37px;
+
+  border: 0.8px solid #5a5a5a;
+  border-radius: 4px;
+}
+.footerFeedbackForm {
+  width: 412px;
+  height: 37px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.footerFeedbackCom {
+  width: 406px;
+  height: 56px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #5e5e5e;
+}
+.footerFeedbackTitle {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+
+  color: #1b1a1a;
+}
+.footerFeedbackSvg {
+  width: 202.94px;
+  height: 70.9px;
+}

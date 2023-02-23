@@ -12,9 +12,12 @@
   margin-top: 50px;
   margin-left: 31px;
 
+  font-family: "Nunito Sans";
+  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
+  color: #282828;
 }
 .categoriesItemButton {
   width: 119px;
@@ -23,5 +26,9 @@
   margin-top: 16px;
   margin-left: 31px;
 
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
   border: 0.6px solid #000000;
 }

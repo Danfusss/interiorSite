@@ -12,3 +12,36 @@
   margin-top: 156px;
   margin-left: 165px;
 }
+
+.homeBoxTitle {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+.homeBoxBlock h2 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.homeBoxCost {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+}
+.homeBoxButton {
+  background: #1c1b1b;
+
+  width: 114px;
+  height: 37px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}

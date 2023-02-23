@@ -1,0 +1,53 @@
+.articleListItemBox {
+  width: 350px;
+  height: 501px;
+
+  margin-right: 29px;
+
+  border: 1px solid #acacac;
+}
+
+.articleListItemDown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ArticleItemAutor {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #808080;
+}
+
+.ArticleItemComments {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #808080;
+}
+.ArticleItemName {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2e2d2d;
+}
+
+.ArticleButton {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 60px;
+
+  color: #1b1a1a;
+}
+.ArticleItemBox svg {
+  width: 15px;
+  height: 15px;
+}

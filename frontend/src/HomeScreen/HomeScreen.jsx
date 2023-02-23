@@ -7,13 +7,13 @@ export default function HomeScreen() {
     <div className="homeBox">
       <div className="homeBoxBlock">
         <h2>{"INTERIOR"}</h2>
-        <p>
+        <p className="homeBoxTitle">
           <span> {"Home Designs Made Easy"}</span>
         </p>
         <p>
-          <span>{"$416.00"}</span>
+          <span className="homeBoxCost">{"$416.00"}</span>
         </p>
-        <button> {"SHOP NOW"}</button>
+        <button className="homeBoxButton"> {"SHOP NOW"}</button>
       </div>
     </div>
   );

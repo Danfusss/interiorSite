@@ -2,17 +2,41 @@
   width: 255px;
   height: 314px;
 
-  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: 30px;
   background: #ffffff;
   box-sizing: border-box;
   border: 1px solid rgb(255, 255, 255);
 }
 .feedbackItemName {
   margin-top: 93px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
 }
 .feedbackItemProf {
   margin-top: 6px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .feedbackItemCom {
   margin-top: 32px;
+  width: 212px;
+  height: 96px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
 }
